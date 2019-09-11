@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.word{
+font: cursive;
+text-align: center;
+color: grey;
+}
+a.disable {
+  pointer-events: none;
+  cursor: default;
+  color: grey;
+}
+.word{
+font-family: 'Titillium Web', sans-serif;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+        </style>
+    </head>
+    <body>
+      <div class="word"><h1>Free Games</h1></div>
+      <img src="https://cdn.pixabay.com/photo/2018/08/14/11/10/graphic-3605329__340.png" class="image">
+
+<ul>
+  <li><a class="active" href="#home">All Games</a></li>
+  <li><a href="#news" class="disable">New Games</a></li>
+  <li><a href="#contact" class="disable">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<br>
+   <div class="gallery">
+  <a href="blox.html">
+    <a href="blox.html"><img src="https://supermariobros.io/data/image/bloxorz.jpg" alt="Bloxorz Puzzle Game" width="600" height="400"></a>
+  </a>
+  <div class="desc">Bloxorz</div>
+</div>
+
+<div class="gallery">
+  <a href="">
+    <img src="https://supermariobros.io/data/image/bloxorz.jpg" alt="Bloxorz Puzzle Game" width="600" height="400">
+  </a>
+  <div class="desc">Game 2 (Not Working)</div>
+</div>
+
+<div class="gallery">
+  <a href=""></a>
+    <a href=""><img src="https://supermariobros.io/data/image/bloxorz.jpg" alt="Bloxorz Puzzle Game" width="600" height="400" class="">
+  </a>
+  <div class="desc">Game 3(Not Working)</div>
+</div>
+
+<div class="gallery">
+  <a href="">
+    <img src="https://vignette.wikia.nocookie.net/commando2/images/7/7b/Commando_Rush.png/revision/latest?cb=20130213095312" alt="Commando Rush Game 2d Shooter" width="600" height="400">
+  </a>
+  <div class="desc">Commando Rush</div>
+</div>
+
+
+
+
+    </body>
+  </html>
